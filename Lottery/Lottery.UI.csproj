@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lottery.Core\Lottery.Core.csproj">
+      <Project>{0f998635-6627-43bc-bfc9-a38fcad4525d}</Project>
+      <Name>Lottery.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

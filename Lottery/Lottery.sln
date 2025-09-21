@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lottery", "Lottery.csproj", "{8B140584-A012-49E3-B5D9-C702F613E0E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lottery.UI", "Lottery.UI.csproj", "{8B140584-A012-49E3-B5D9-C702F613E0E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lottery.Core", "..\Lottery.Core\Lottery.Core.csproj", "{0F998635-6627-43BC-BFC9-A38FCAD4525D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lottery.Data", "..\Lottery.Data\Lottery.Data.csproj", "{2A169785-1DDA-4BCA-8D8D-4DB2A0CCDBC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{8B140584-A012-49E3-B5D9-C702F613E0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B140584-A012-49E3-B5D9-C702F613E0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B140584-A012-49E3-B5D9-C702F613E0E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F998635-6627-43BC-BFC9-A38FCAD4525D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F998635-6627-43BC-BFC9-A38FCAD4525D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F998635-6627-43BC-BFC9-A38FCAD4525D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F998635-6627-43BC-BFC9-A38FCAD4525D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A169785-1DDA-4BCA-8D8D-4DB2A0CCDBC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A169785-1DDA-4BCA-8D8D-4DB2A0CCDBC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A169785-1DDA-4BCA-8D8D-4DB2A0CCDBC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A169785-1DDA-4BCA-8D8D-4DB2A0CCDBC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
