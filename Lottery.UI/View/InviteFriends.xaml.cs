@@ -11,19 +11,22 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Lottery.UI.ViewModel;
 
 namespace Lottery.UI.View
 {
     /// <summary>
-    /// Lógica de interacción para UserRegister.xaml
+    /// Lógica de interacción para InivteFriends.xaml
     /// </summary>
-    public partial class UserRegister : Window
+    public partial class InviteFriends : Window
     {
-        public UserRegister()
+        public InviteFriends()
         {
             InitializeComponent();
-            this.DataContext = new UserRegisterViewModel();
+        }
+
+        private void CopyButton_Click(object sender, RoutedEventArgs e)
+        {
+            Clipboard.SetText(InvitationCodeTextBox.Text);
         }
     }
 }
