@@ -61,6 +61,204 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Create new password.
+        /// </summary>
+        public static string ChangePasswordButtonCreateNewPassword {
+            get {
+                return ResourceManager.GetString("ChangePasswordButtonCreateNewPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Current password.
+        /// </summary>
+        public static string ChangePasswordLabelCurrentPassword {
+            get {
+                return ResourceManager.GetString("ChangePasswordLabelCurrentPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Your password has been successfully changed.
+        /// </summary>
+        public static string ChangePasswordLabelSuccessfullyChanged {
+            get {
+                return ResourceManager.GetString("ChangePasswordLabelSuccessfullyChanged", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Change Password.
+        /// </summary>
+        public static string ChangePasswordLabelTitle {
+            get {
+                return ResourceManager.GetString("ChangePasswordLabelTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Card display time.
+        /// </summary>
+        public static string CreateLobbyLabelCardDisplayTime {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelCardDisplayTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Card image.
+        /// </summary>
+        public static string CreateLobbyLabelCardImage {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelCardImage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Game Mode.
+        /// </summary>
+        public static string CreateLobbyLabelGameMode {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelGameMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Markers.
+        /// </summary>
+        public static string CreateLobbyLabelMarkers {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelMarkers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Sound.
+        /// </summary>
+        public static string CreateLobbyLabelSound {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelSound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Create Lobby.
+        /// </summary>
+        public static string CreateLobbyLabelTitle {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Change email.
+        /// </summary>
+        public static string CustomizeProfileButtonChangeEmail {
+            get {
+                return ResourceManager.GetString("CustomizeProfileButtonChangeEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Change password.
+        /// </summary>
+        public static string CustomizeProfileButtonChangePassword {
+            get {
+                return ResourceManager.GetString("CustomizeProfileButtonChangePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Avatar.
+        /// </summary>
+        public static string CustomizeProfileLabelAvatar {
+            get {
+                return ResourceManager.GetString("CustomizeProfileLabelAvatar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Background.
+        /// </summary>
+        public static string CustomizeProfileLabelBackground {
+            get {
+                return ResourceManager.GetString("CustomizeProfileLabelBackground", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Change email.
+        /// </summary>
+        public static string CustomizeProfileLabelChangeEmail {
+            get {
+                return ResourceManager.GetString("CustomizeProfileLabelChangeEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a By pressing &quot;Continue&quot;, a verification code will be sent to the provided email address..
+        /// </summary>
+        public static string CustomizeProfileLabelDescription {
+            get {
+                return ResourceManager.GetString("CustomizeProfileLabelDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Edit and update your profile information..
+        /// </summary>
+        public static string CustomizeProfileLabelEditDetails {
+            get {
+                return ResourceManager.GetString("CustomizeProfileLabelEditDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Your email address has been successfully updated.
+        /// </summary>
+        public static string CustomizeProfileLabelEmailUpdated {
+            get {
+                return ResourceManager.GetString("CustomizeProfileLabelEmailUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a New email address.
+        /// </summary>
+        public static string CustomizeProfileLabelNewEmailAddress {
+            get {
+                return ResourceManager.GetString("CustomizeProfileLabelNewEmailAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Profile details.
+        /// </summary>
+        public static string CustomizeProfileLabelProfileDetails {
+            get {
+                return ResourceManager.GetString("CustomizeProfileLabelProfileDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Select your avatar.
+        /// </summary>
+        public static string CustomizeProfileLabelSelectAvatar {
+            get {
+                return ResourceManager.GetString("CustomizeProfileLabelSelectAvatar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Customize profile.
+        /// </summary>
+        public static string CustomizeProfileLabelTitle {
+            get {
+                return ResourceManager.GetString("CustomizeProfileLabelTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a English.
         /// </summary>
         public static string en {
@@ -88,11 +286,83 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Acept.
+        /// </summary>
+        public static string GlobalButtonAccept {
+            get {
+                return ResourceManager.GetString("GlobalButtonAccept", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Back.
+        /// </summary>
+        public static string GlobalButtonBack {
+            get {
+                return ResourceManager.GetString("GlobalButtonBack", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Continue.
+        /// </summary>
+        public static string GlobalButtonContinue {
+            get {
+                return ResourceManager.GetString("GlobalButtonContinue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Save changes.
+        /// </summary>
+        public static string GlobalButtonSaveChanges {
+            get {
+                return ResourceManager.GetString("GlobalButtonSaveChanges", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Sign Up.
+        /// </summary>
+        public static string GlobalButtonSignUp {
+            get {
+                return ResourceManager.GetString("GlobalButtonSignUp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Start.
         /// </summary>
         public static string GlobalButtonStart {
             get {
                 return ResourceManager.GetString("GlobalButtonStart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Verification Code.
+        /// </summary>
+        public static string GlobalButtonVerificationCode {
+            get {
+                return ResourceManager.GetString("GlobalButtonVerificationCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Verify Code.
+        /// </summary>
+        public static string GlobalButtonVerifyCode {
+            get {
+                return ResourceManager.GetString("GlobalButtonVerifyCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Chat.
+        /// </summary>
+        public static string GlobalLabelChat {
+            get {
+                return ResourceManager.GetString("GlobalLabelChat", resourceCulture);
             }
         }
         
@@ -106,11 +376,65 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Enter your details to continue.
+        /// </summary>
+        public static string GlobalLabelDetailsToContinue {
+            get {
+                return ResourceManager.GetString("GlobalLabelDetailsToContinue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Email.
         /// </summary>
         public static string GlobalLabelEmail {
             get {
                 return ResourceManager.GetString("GlobalLabelEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Lobby.
+        /// </summary>
+        public static string GlobalLabelLobby {
+            get {
+                return ResourceManager.GetString("GlobalLabelLobby", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Maternal Last Name.
+        /// </summary>
+        public static string GlobalLabelMaternalLastName {
+            get {
+                return ResourceManager.GetString("GlobalLabelMaternalLastName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Name (s).
+        /// </summary>
+        public static string GlobalLabelName {
+            get {
+                return ResourceManager.GetString("GlobalLabelName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a New password.
+        /// </summary>
+        public static string GlobalLabelNewPassword {
+            get {
+                return ResourceManager.GetString("GlobalLabelNewPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Nickname.
+        /// </summary>
+        public static string GlobalLabelNickname {
+            get {
+                return ResourceManager.GetString("GlobalLabelNickname", resourceCulture);
             }
         }
         
@@ -124,11 +448,164 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Paternal Last Name.
+        /// </summary>
+        public static string GlobalLabelPaternalLastName {
+            get {
+                return ResourceManager.GetString("GlobalLabelPaternalLastName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Players.
+        /// </summary>
+        public static string GlobalLabelPlayers {
+            get {
+                return ResourceManager.GetString("GlobalLabelPlayers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a We’ve sent a code to carlos@gmail.com.
+        /// </summary>
+        public static string GlobalLabelVerificationCode {
+            get {
+                return ResourceManager.GetString("GlobalLabelVerificationCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a No.
+        /// </summary>
+        public static string GlobalTagNo {
+            get {
+                return ResourceManager.GetString("GlobalTagNo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Yes.
+        /// </summary>
+        public static string GlobalTagYes {
+            get {
+                return ResourceManager.GetString("GlobalTagYes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Enter your nickname.
+        /// </summary>
+        public static string GuestSignUpLabelNickname {
+            get {
+                return ResourceManager.GetString("GuestSignUpLabelNickname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Play as guest.
+        /// </summary>
+        public static string GuestSignUpLabelTitle {
+            get {
+                return ResourceManager.GetString("GuestSignUpLabelTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Hello.
         /// </summary>
         public static string hello {
             get {
                 return ResourceManager.GetString("hello", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Copy.
+        /// </summary>
+        public static string InviteFriendsButtonCopy {
+            get {
+                return ResourceManager.GetString("InviteFriendsButtonCopy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Invite code.
+        /// </summary>
+        public static string InviteFriendsButtonInviteCode {
+            get {
+                return ResourceManager.GetString("InviteFriendsButtonInviteCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Send.
+        /// </summary>
+        public static string InviteFriendsButtonSend {
+            get {
+                return ResourceManager.GetString("InviteFriendsButtonSend", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Copy your invite code.
+        /// </summary>
+        public static string InviteFriendsLabelCopyInviteCode {
+            get {
+                return ResourceManager.GetString("InviteFriendsLabelCopyInviteCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Send by email.
+        /// </summary>
+        public static string InviteFriendsLabelSendEmail {
+            get {
+                return ResourceManager.GetString("InviteFriendsLabelSendEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Invite your friend.
+        /// </summary>
+        public static string InviteFriendsLabelTitle {
+            get {
+                return ResourceManager.GetString("InviteFriendsLabelTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Kick.
+        /// </summary>
+        public static string KickPlayerButtonKick {
+            get {
+                return ResourceManager.GetString("KickPlayerButtonKick", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Kick Out.
+        /// </summary>
+        public static string KickPlayerLabelKickOut {
+            get {
+                return ResourceManager.GetString("KickPlayerLabelKickOut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Are you sure you want to kick xOscarx?.
+        /// </summary>
+        public static string KickPlayerLabelMessage {
+            get {
+                return ResourceManager.GetString("KickPlayerLabelMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Type a message.
+        /// </summary>
+        public static string KickPlayerTextFieldChat {
+            get {
+                return ResourceManager.GetString("KickPlayerTextFieldChat", resourceCulture);
             }
         }
         
@@ -174,6 +651,96 @@ namespace Loterry.UI.Properties.Langs {
         public static string LoginLabelTitle {
             get {
                 return ResourceManager.GetString("LoginLabelTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Confirm.
+        /// </summary>
+        public static string RecoverPasswordButtonConfirm {
+            get {
+                return ResourceManager.GetString("RecoverPasswordButtonConfirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Go to login.
+        /// </summary>
+        public static string RecoverPasswordButtonGoToLogin {
+            get {
+                return ResourceManager.GetString("RecoverPasswordButtonGoToLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Recover password.
+        /// </summary>
+        public static string RecoverPasswordButtonRecoverPassword {
+            get {
+                return ResourceManager.GetString("RecoverPasswordButtonRecoverPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a By pressing &quot;Recover password&quot;, a verification code will be sent to the provided email address..
+        /// </summary>
+        public static string RecoverPasswordLabelDescription {
+            get {
+                return ResourceManager.GetString("RecoverPasswordLabelDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Enter your new password to continue.
+        /// </summary>
+        public static string RecoverPasswordLabelNewPassword {
+            get {
+                return ResourceManager.GetString("RecoverPasswordLabelNewPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Your password has been updated successfully. You can now log in..
+        /// </summary>
+        public static string RecoverPasswordLabelPasswordUpdated {
+            get {
+                return ResourceManager.GetString("RecoverPasswordLabelPasswordUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Recover password.
+        /// </summary>
+        public static string RecoverPasswordLabelTitle {
+            get {
+                return ResourceManager.GetString("RecoverPasswordLabelTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fill in your details to sign up.
+        /// </summary>
+        public static string UserSignUpLabelDetails {
+            get {
+                return ResourceManager.GetString("UserSignUpLabelDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Your registration was successful. Welcome, Carlos.
+        /// </summary>
+        public static string UserSignUpLabelRegistrationComplete {
+            get {
+                return ResourceManager.GetString("UserSignUpLabelRegistrationComplete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Sign Up.
+        /// </summary>
+        public static string UserSignUpLabelTitle {
+            get {
+                return ResourceManager.GetString("UserSignUpLabelTitle", resourceCulture);
             }
         }
     }
