@@ -11,8 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Lottery.Core.Models;
-using Lottery.Data.Models;
+using Lottery.Data;
 
 namespace Lottery.UI.View
 {
@@ -46,20 +45,20 @@ namespace Lottery.UI.View
 
         private void VerifyButton_Click(object sender, RoutedEventArgs e)
         {
-            using (var dbContext = new BasePruebaContext())
+            using (var dbContext = new base_pruebaEntities())
             {
                 var newUser = new User
                 {
-                    FirstName = NameTextBox.Text,
-                    PaternalLastName = PaternalLastNameTextBox.Text,
-                    MaternalLastName = MaternalLastNameTextBox.Text,
-                    Nickname = NicknameTextBox.Text,
-                    Email = EmailTextBox.Text,
-                    Password = PasswordBox.Password,
-                    RegistrationDate = DateTime.Now,
-                    IdAvatar = 1
+                    first_name = NameTextBox.Text,
+                    paternal_last_name = PaternalLastNameTextBox.Text,
+                    maternal_last_name = MaternalLastNameTextBox.Text,
+                    nickname = NicknameTextBox.Text,
+                    email = EmailTextBox.Text,
+                    password = PasswordBox.Password,
+                    registration_date = DateTime.Now,
+                    id_avatar = 1
                 };
-                dbContext.Users.Add(newUser);
+                dbContext.User.Add(newUser);
                 dbContext.SaveChanges();
 
                 VerificationCodePanel.Visibility = Visibility.Collapsed;

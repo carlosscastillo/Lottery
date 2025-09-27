@@ -1,5 +1,6 @@
 ﻿using System.Configuration;
 using System.Data;
+using System.Threading;
 using System.Windows;
 
 namespace Lottery.UI
@@ -12,7 +13,7 @@ namespace Lottery.UI
         protected override void OnStartup(StartupEventArgs e)
         {
             var langCode = Lottery.UI.Properties.Settings.Default.languageCode;
-            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(langCode);
+            Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(langCode);
 
             base.OnStartup(e);
         }
