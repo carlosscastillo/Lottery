@@ -10,17 +10,13 @@
 namespace Lottery.Data
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class SocialMedia
+    public partial class sp_helpdiagrams_Result
     {
-        public int id_social_media { get; set; }
-        public int id_user { get; set; }
-        public string facebook_user { get; set; }
-        public string instagram_user { get; set; }
-        public string x_user { get; set; }
-        public string tiktok_user { get; set; }
-    
-        public virtual User User { get; set; }
+        public string Database { get; set; }
+        public string Name { get; set; }
+        public int ID { get; set; }
+        public string Owner { get; set; }
+        public int OwnerID { get; set; }
     }
 }

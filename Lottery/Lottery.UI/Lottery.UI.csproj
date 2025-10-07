@@ -205,12 +205,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Lottery.Data\Lottery.Data.csproj">
-      <Project>{cc7b8364-25b5-4fe8-a6c5-0a7d8af30c17}</Project>
-      <Name>Lottery.Data</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

@@ -11,7 +11,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using Lottery.Data;
 
 namespace Lottery.UI.View
 {
@@ -45,25 +44,7 @@ namespace Lottery.UI.View
 
         private void VerifyButton_Click(object sender, RoutedEventArgs e)
         {
-            using (var dbContext = new base_pruebaEntities())
-            {
-                var newUser = new User
-                {
-                    first_name = NameTextBox.Text,
-                    paternal_last_name = PaternalLastNameTextBox.Text,
-                    maternal_last_name = MaternalLastNameTextBox.Text,
-                    nickname = NicknameTextBox.Text,
-                    email = EmailTextBox.Text,
-                    password = PasswordBox.Password,
-                    registration_date = DateTime.Now,
-                    id_avatar = 1
-                };
-                dbContext.User.Add(newUser);
-                dbContext.SaveChanges();
-
-                VerificationCodePanel.Visibility = Visibility.Collapsed;
-                RegistrationCompletedPanel.Visibility = Visibility.Visible;
-            }
+            
         }
 
         private void ContinueButton_Click(object sender, RoutedEventArgs e)
