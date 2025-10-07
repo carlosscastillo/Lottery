@@ -61,7 +61,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Create new password.
+        ///   Busca una cadena traducida similar a Crear nueva contraseña.
         /// </summary>
         public static string ChangePasswordButtonCreateNewPassword {
             get {
@@ -70,7 +70,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Current password.
+        ///   Busca una cadena traducida similar a Contraseña anterior.
         /// </summary>
         public static string ChangePasswordLabelCurrentPassword {
             get {
@@ -79,7 +79,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your password has been successfully changed.
+        ///   Busca una cadena traducida similar a Tu contraseña se ha modificado correctamente.
         /// </summary>
         public static string ChangePasswordLabelSuccessfullyChanged {
             get {
@@ -88,7 +88,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Change Password.
+        ///   Busca una cadena traducida similar a Cambiar Contraseña.
         /// </summary>
         public static string ChangePasswordLabelTitle {
             get {
@@ -97,7 +97,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Card display time.
+        ///   Busca una cadena traducida similar a Tiempo de aparición de las cartas.
         /// </summary>
         public static string CreateLobbyLabelCardDisplayTime {
             get {
@@ -106,7 +106,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Card image.
+        ///   Busca una cadena traducida similar a Imagen de cartas.
         /// </summary>
         public static string CreateLobbyLabelCardImage {
             get {
@@ -115,7 +115,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Game Mode.
+        ///   Busca una cadena traducida similar a Modo de juego.
         /// </summary>
         public static string CreateLobbyLabelGameMode {
             get {
@@ -124,7 +124,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Markers.
+        ///   Busca una cadena traducida similar a Fichas.
         /// </summary>
         public static string CreateLobbyLabelMarkers {
             get {
@@ -133,7 +133,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Sound.
+        ///   Busca una cadena traducida similar a Sonido.
         /// </summary>
         public static string CreateLobbyLabelSound {
             get {
@@ -142,7 +142,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Create Lobby.
+        ///   Busca una cadena traducida similar a Crear Sala.
         /// </summary>
         public static string CreateLobbyLabelTitle {
             get {
@@ -151,7 +151,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Change email.
+        ///   Busca una cadena traducida similar a Cambiar correo electrónico.
         /// </summary>
         public static string CustomizeProfileButtonChangeEmail {
             get {
@@ -160,7 +160,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Change password.
+        ///   Busca una cadena traducida similar a Cambiar contraseña.
         /// </summary>
         public static string CustomizeProfileButtonChangePassword {
             get {
@@ -169,7 +169,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Avatar.
+        ///   Busca una cadena traducida similar a Foto de perfil.
         /// </summary>
         public static string CustomizeProfileLabelAvatar {
             get {
@@ -178,7 +178,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Background.
+        ///   Busca una cadena traducida similar a Color de fondo.
         /// </summary>
         public static string CustomizeProfileLabelBackground {
             get {
@@ -187,7 +187,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Change email.
+        ///   Busca una cadena traducida similar a Cambiar correo electrónico.
         /// </summary>
         public static string CustomizeProfileLabelChangeEmail {
             get {
@@ -196,7 +196,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a By pressing &quot;Continue&quot;, a verification code will be sent to the provided email address..
+        ///   Busca una cadena traducida similar a Al presionar “Continuar”, se enviará un código de verificación a la dirección de correo electrónico proporcionada..
         /// </summary>
         public static string CustomizeProfileLabelDescription {
             get {
@@ -205,7 +205,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Edit and update your profile information..
+        ///   Busca una cadena traducida similar a Edita y actualiza la información de tu perfil..
         /// </summary>
         public static string CustomizeProfileLabelEditDetails {
             get {
@@ -214,7 +214,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your email address has been successfully updated.
+        ///   Busca una cadena traducida similar a Tu correo electrónico se ha modificado correctamente.
         /// </summary>
         public static string CustomizeProfileLabelEmailUpdated {
             get {
@@ -223,7 +223,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a New email address.
+        ///   Busca una cadena traducida similar a Nueva dirección de correo electrónico.
         /// </summary>
         public static string CustomizeProfileLabelNewEmailAddress {
             get {
@@ -232,7 +232,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Profile details.
+        ///   Busca una cadena traducida similar a Datos del perfil.
         /// </summary>
         public static string CustomizeProfileLabelProfileDetails {
             get {
@@ -241,7 +241,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Select your avatar.
+        ///   Busca una cadena traducida similar a Selecciona tu avatar.
         /// </summary>
         public static string CustomizeProfileLabelSelectAvatar {
             get {
@@ -250,7 +250,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Customize profile.
+        ///   Busca una cadena traducida similar a Personalizar perfil.
         /// </summary>
         public static string CustomizeProfileLabelTitle {
             get {
@@ -259,7 +259,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a English.
+        ///   Busca una cadena traducida similar a Inglés.
         /// </summary>
         public static string en {
             get {
@@ -268,7 +268,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Spanish.
+        ///   Busca una cadena traducida similar a Español.
         /// </summary>
         public static string es {
             get {
@@ -277,7 +277,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Exit App.
+        ///   Busca una cadena traducida similar a Salir.
         /// </summary>
         public static string exit {
             get {
@@ -286,7 +286,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Acept.
+        ///   Busca una cadena traducida similar a Aceptar.
         /// </summary>
         public static string GlobalButtonAccept {
             get {
@@ -295,7 +295,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Back.
+        ///   Busca una cadena traducida similar a Regresar.
         /// </summary>
         public static string GlobalButtonBack {
             get {
@@ -304,7 +304,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Continue.
+        ///   Busca una cadena traducida similar a Continuar.
         /// </summary>
         public static string GlobalButtonContinue {
             get {
@@ -313,7 +313,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Save changes.
+        ///   Busca una cadena traducida similar a Guardar cambios.
         /// </summary>
         public static string GlobalButtonSaveChanges {
             get {
@@ -322,7 +322,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Sign Up.
+        ///   Busca una cadena traducida similar a Registrarme.
         /// </summary>
         public static string GlobalButtonSignUp {
             get {
@@ -331,7 +331,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Start.
+        ///   Busca una cadena traducida similar a Iniciar.
         /// </summary>
         public static string GlobalButtonStart {
             get {
@@ -340,7 +340,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Verification Code.
+        ///   Busca una cadena traducida similar a Código de verificación.
         /// </summary>
         public static string GlobalButtonVerificationCode {
             get {
@@ -349,7 +349,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Verify Code.
+        ///   Busca una cadena traducida similar a Verificar Código.
         /// </summary>
         public static string GlobalButtonVerifyCode {
             get {
@@ -367,7 +367,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Confirm Password.
+        ///   Busca una cadena traducida similar a Confirmar Contraseña.
         /// </summary>
         public static string GlobalLabelConfirmPassword {
             get {
@@ -376,7 +376,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter your details to continue.
+        ///   Busca una cadena traducida similar a Ingresa tus datos para continuar.
         /// </summary>
         public static string GlobalLabelDetailsToContinue {
             get {
@@ -385,7 +385,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Email.
+        ///   Busca una cadena traducida similar a Correo Electrónico.
         /// </summary>
         public static string GlobalLabelEmail {
             get {
@@ -394,7 +394,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Lobby.
+        ///   Busca una cadena traducida similar a Sala.
         /// </summary>
         public static string GlobalLabelLobby {
             get {
@@ -403,7 +403,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Maternal Last Name.
+        ///   Busca una cadena traducida similar a Apellido Materno.
         /// </summary>
         public static string GlobalLabelMaternalLastName {
             get {
@@ -412,7 +412,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Name (s).
+        ///   Busca una cadena traducida similar a Nombre(s).
         /// </summary>
         public static string GlobalLabelName {
             get {
@@ -421,7 +421,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a New password.
+        ///   Busca una cadena traducida similar a Nueva contraseña.
         /// </summary>
         public static string GlobalLabelNewPassword {
             get {
@@ -430,7 +430,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Nickname.
+        ///   Busca una cadena traducida similar a Apodo.
         /// </summary>
         public static string GlobalLabelNickname {
             get {
@@ -439,7 +439,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Password.
+        ///   Busca una cadena traducida similar a Contraseña.
         /// </summary>
         public static string GlobalLabelPassword {
             get {
@@ -448,7 +448,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Paternal Last Name.
+        ///   Busca una cadena traducida similar a Apellido Paterno.
         /// </summary>
         public static string GlobalLabelPaternalLastName {
             get {
@@ -457,7 +457,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Players.
+        ///   Busca una cadena traducida similar a Jugadores.
         /// </summary>
         public static string GlobalLabelPlayers {
             get {
@@ -466,7 +466,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a We’ve sent a code to carlos@gmail.com.
+        ///   Busca una cadena traducida similar a Hemos enviado un código a.
         /// </summary>
         public static string GlobalLabelVerificationCode {
             get {
@@ -484,7 +484,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Yes.
+        ///   Busca una cadena traducida similar a Si.
         /// </summary>
         public static string GlobalTagYes {
             get {
@@ -493,7 +493,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter your nickname.
+        ///   Busca una cadena traducida similar a Ingresa tu apodo.
         /// </summary>
         public static string GuestSignUpLabelNickname {
             get {
@@ -502,7 +502,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Play as guest.
+        ///   Busca una cadena traducida similar a Iniciar como invitado.
         /// </summary>
         public static string GuestSignUpLabelTitle {
             get {
@@ -511,16 +511,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Hello.
-        /// </summary>
-        public static string hello {
-            get {
-                return ResourceManager.GetString("hello", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a Copy.
+        ///   Busca una cadena traducida similar a Copiar.
         /// </summary>
         public static string InviteFriendsButtonCopy {
             get {
@@ -529,7 +520,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Invite code.
+        ///   Busca una cadena traducida similar a Código de invitación.
         /// </summary>
         public static string InviteFriendsButtonInviteCode {
             get {
@@ -538,7 +529,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Send.
+        ///   Busca una cadena traducida similar a Enviar.
         /// </summary>
         public static string InviteFriendsButtonSend {
             get {
@@ -547,7 +538,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Copy your invite code.
+        ///   Busca una cadena traducida similar a Copia tu código de invitación.
         /// </summary>
         public static string InviteFriendsLabelCopyInviteCode {
             get {
@@ -556,7 +547,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Send by email.
+        ///   Busca una cadena traducida similar a Enviar por correo electrónico.
         /// </summary>
         public static string InviteFriendsLabelSendEmail {
             get {
@@ -565,7 +556,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Invite your friend.
+        ///   Busca una cadena traducida similar a Invita a tu amigo.
         /// </summary>
         public static string InviteFriendsLabelTitle {
             get {
@@ -574,7 +565,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Kick.
+        ///   Busca una cadena traducida similar a Expulsar.
         /// </summary>
         public static string KickPlayerButtonKick {
             get {
@@ -583,7 +574,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Kick Out.
+        ///   Busca una cadena traducida similar a Expulsión.
         /// </summary>
         public static string KickPlayerLabelKickOut {
             get {
@@ -592,7 +583,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Are you sure you want to kick xOscarx?.
+        ///   Busca una cadena traducida similar a ¿Estas seguro que deseas expulsar a.
         /// </summary>
         public static string KickPlayerLabelMessage {
             get {
@@ -601,7 +592,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Type a message.
+        ///   Busca una cadena traducida similar a Escribe un mensaje.
         /// </summary>
         public static string KickPlayerTextFieldChat {
             get {
@@ -610,7 +601,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Load Main.
+        ///   Busca una cadena traducida similar a Ir a inicio.
         /// </summary>
         public static string loadMain {
             get {
@@ -619,7 +610,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Forgot my password.
+        ///   Busca una cadena traducida similar a Olvidé mi contraseña.
         /// </summary>
         public static string LoginButtonForgotMyPassword {
             get {
@@ -628,7 +619,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a New here? Sign up.
+        ///   Busca una cadena traducida similar a Soy nuevo, quiero registrarme.
         /// </summary>
         public static string LoginButtonSignUp {
             get {
@@ -637,7 +628,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter your details to log in.
+        ///   Busca una cadena traducida similar a Ingresa tus datos para iniciar.
         /// </summary>
         public static string LoginLabelEnterDetail {
             get {
@@ -646,7 +637,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Login.
+        ///   Busca una cadena traducida similar a Inicio de Sesión.
         /// </summary>
         public static string LoginLabelTitle {
             get {
@@ -655,7 +646,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Confirm.
+        ///   Busca una cadena traducida similar a Confirmar.
         /// </summary>
         public static string RecoverPasswordButtonConfirm {
             get {
@@ -664,7 +655,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Go to login.
+        ///   Busca una cadena traducida similar a Ir a inicio de sesión.
         /// </summary>
         public static string RecoverPasswordButtonGoToLogin {
             get {
@@ -673,7 +664,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Recover password.
+        ///   Busca una cadena traducida similar a Recuperar contraseña.
         /// </summary>
         public static string RecoverPasswordButtonRecoverPassword {
             get {
@@ -682,7 +673,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a By pressing &quot;Recover password&quot;, a verification code will be sent to the provided email address..
+        ///   Busca una cadena traducida similar a Al presionar “Recuperar contraseña”, se enviará un código de verificación a la dirección de correo electrónico proporcionada..
         /// </summary>
         public static string RecoverPasswordLabelDescription {
             get {
@@ -691,7 +682,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Enter your new password to continue.
+        ///   Busca una cadena traducida similar a Ingresa tu nueva contraseña para continuar.
         /// </summary>
         public static string RecoverPasswordLabelNewPassword {
             get {
@@ -700,7 +691,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your password has been updated successfully. You can now log in..
+        ///   Busca una cadena traducida similar a Tu contraseña se ha actualizado correctamente, ya puedes iniciar sesión.
         /// </summary>
         public static string RecoverPasswordLabelPasswordUpdated {
             get {
@@ -727,7 +718,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Your registration was successful. Welcome, Carlos.
+        ///   Busca una cadena traducida similar a Tu registro ha sido completado exitosamente. Bienvenido.
         /// </summary>
         public static string UserSignUpLabelRegistrationComplete {
             get {
@@ -736,7 +727,7 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Sign Up.
+        ///   Busca una cadena traducida similar a Registro de Usuario.
         /// </summary>
         public static string UserSignUpLabelTitle {
             get {

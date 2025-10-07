@@ -118,228 +118,228 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ChangePasswordButtonCreateNewPassword" xml:space="preserve">
-    <value>Crear nueva contraseña</value>
+    <value>Create new password</value>
   </data>
   <data name="ChangePasswordLabelCurrentPassword" xml:space="preserve">
-    <value>Contraseña anterior</value>
+    <value>Current password</value>
   </data>
   <data name="ChangePasswordLabelSuccessfullyChanged" xml:space="preserve">
-    <value>Tu contraseña se ha modificado correctamente</value>
+    <value>Your password has been successfully changed</value>
   </data>
   <data name="ChangePasswordLabelTitle" xml:space="preserve">
-    <value>Cambiar Contraseña</value>
+    <value>Change Password</value>
   </data>
   <data name="CreateLobbyLabelCardDisplayTime" xml:space="preserve">
-    <value>Tiempo de aparición de las cartas</value>
+    <value>Card display time</value>
   </data>
   <data name="CreateLobbyLabelCardImage" xml:space="preserve">
-    <value>Imagen de cartas</value>
+    <value>Card image</value>
   </data>
   <data name="CreateLobbyLabelGameMode" xml:space="preserve">
-    <value>Modo de juego</value>
+    <value>Game Mode</value>
   </data>
   <data name="CreateLobbyLabelMarkers" xml:space="preserve">
-    <value>Fichas</value>
+    <value>Markers</value>
   </data>
   <data name="CreateLobbyLabelSound" xml:space="preserve">
-    <value>Sonido</value>
+    <value>Sound</value>
   </data>
   <data name="CreateLobbyLabelTitle" xml:space="preserve">
-    <value>Crear Sala</value>
+    <value>Create Lobby</value>
   </data>
   <data name="CustomizeProfileButtonChangeEmail" xml:space="preserve">
-    <value>Cambiar correo electrónico</value>
+    <value>Change email</value>
   </data>
   <data name="CustomizeProfileButtonChangePassword" xml:space="preserve">
-    <value>Cambiar contraseña</value>
+    <value>Change password</value>
   </data>
   <data name="CustomizeProfileLabelAvatar" xml:space="preserve">
-    <value>Foto de perfil</value>
+    <value>Avatar</value>
   </data>
   <data name="CustomizeProfileLabelBackground" xml:space="preserve">
-    <value>Color de fondo</value>
+    <value>Background</value>
   </data>
   <data name="CustomizeProfileLabelChangeEmail" xml:space="preserve">
-    <value>Cambiar correo electrónico</value>
+    <value>Change email</value>
   </data>
   <data name="CustomizeProfileLabelDescription" xml:space="preserve">
-    <value>Al presionar “Continuar”, se enviará un código de verificación a la dirección de correo electrónico proporcionada.</value>
+    <value>By pressing "Continue", a verification code will be sent to the provided email address.</value>
   </data>
   <data name="CustomizeProfileLabelEditDetails" xml:space="preserve">
-    <value>Edita y actualiza la información de tu perfil.</value>
+    <value>Edit and update your profile information.</value>
   </data>
   <data name="CustomizeProfileLabelEmailUpdated" xml:space="preserve">
-    <value>Tu correo electrónico se ha modificado correctamente</value>
+    <value>Your email address has been successfully updated</value>
   </data>
   <data name="CustomizeProfileLabelNewEmailAddress" xml:space="preserve">
-    <value>Nueva dirección de correo electrónico</value>
+    <value>New email address</value>
   </data>
   <data name="CustomizeProfileLabelProfileDetails" xml:space="preserve">
-    <value>Datos del perfil</value>
+    <value>Profile details</value>
   </data>
   <data name="CustomizeProfileLabelSelectAvatar" xml:space="preserve">
-    <value>Selecciona tu avatar</value>
+    <value>Select your avatar</value>
   </data>
   <data name="CustomizeProfileLabelTitle" xml:space="preserve">
-    <value>Personalizar perfil</value>
+    <value>Customize profile</value>
   </data>
   <data name="en" xml:space="preserve">
-    <value>Inglés</value>
+    <value>English</value>
   </data>
   <data name="es" xml:space="preserve">
-    <value>Español</value>
+    <value>Spanish</value>
   </data>
   <data name="exit" xml:space="preserve">
-    <value>Salir</value>
+    <value>Exit</value>
   </data>
   <data name="GlobalButtonAccept" xml:space="preserve">
-    <value>Aceptar</value>
+    <value>Acept</value>
   </data>
   <data name="GlobalButtonBack" xml:space="preserve">
-    <value>Regresar</value>
+    <value>Back</value>
   </data>
   <data name="GlobalButtonContinue" xml:space="preserve">
-    <value>Continuar</value>
+    <value>Continue</value>
   </data>
   <data name="GlobalButtonSaveChanges" xml:space="preserve">
-    <value>Guardar cambios</value>
+    <value>Save changes</value>
   </data>
   <data name="GlobalButtonSignUp" xml:space="preserve">
-    <value>Registrarme</value>
+    <value>Sign Up</value>
   </data>
   <data name="GlobalButtonStart" xml:space="preserve">
-    <value>Iniciar</value>
+    <value>Start</value>
   </data>
   <data name="GlobalButtonVerificationCode" xml:space="preserve">
-    <value>Código de verificación</value>
+    <value>Verification Code</value>
   </data>
   <data name="GlobalButtonVerifyCode" xml:space="preserve">
-    <value>Verificar Código</value>
+    <value>Verify Code</value>
   </data>
   <data name="GlobalLabelChat" xml:space="preserve">
     <value>Chat</value>
   </data>
   <data name="GlobalLabelConfirmPassword" xml:space="preserve">
-    <value>Confirmar Contraseña</value>
+    <value>Confirm Password</value>
   </data>
   <data name="GlobalLabelDetailsToContinue" xml:space="preserve">
-    <value>Ingresa tus datos para continuar</value>
+    <value>Enter your details to continue</value>
   </data>
   <data name="GlobalLabelEmail" xml:space="preserve">
-    <value>Correo Electrónico</value>
+    <value>Email</value>
   </data>
   <data name="GlobalLabelLobby" xml:space="preserve">
-    <value>Sala</value>
+    <value>Lobby</value>
   </data>
   <data name="GlobalLabelMaternalLastName" xml:space="preserve">
-    <value>Apellido Materno</value>
+    <value>Maternal Last Name</value>
   </data>
   <data name="GlobalLabelName" xml:space="preserve">
-    <value>Nombre(s)</value>
+    <value>Name</value>
   </data>
   <data name="GlobalLabelNewPassword" xml:space="preserve">
-    <value>Nueva contraseña</value>
+    <value>New password</value>
   </data>
   <data name="GlobalLabelNickname" xml:space="preserve">
-    <value>Apodo</value>
+    <value>Nickname</value>
   </data>
   <data name="GlobalLabelPassword" xml:space="preserve">
-    <value>Contraseña</value>
+    <value>Password</value>
   </data>
   <data name="GlobalLabelPaternalLastName" xml:space="preserve">
-    <value>Apellido Paterno</value>
+    <value>Paternal Last Name</value>
   </data>
   <data name="GlobalLabelPlayers" xml:space="preserve">
-    <value>Jugadores</value>
+    <value>Players</value>
   </data>
   <data name="GlobalLabelVerificationCode" xml:space="preserve">
-    <value>Hemos enviado un código a</value>
+    <value>We’ve sent a code to</value>
   </data>
   <data name="GlobalTagNo" xml:space="preserve">
     <value>No</value>
   </data>
   <data name="GlobalTagYes" xml:space="preserve">
-    <value>Si</value>
+    <value>Yes</value>
   </data>
   <data name="GuestSignUpLabelNickname" xml:space="preserve">
-    <value>Ingresa tu apodo</value>
+    <value>Enter your nickname</value>
   </data>
   <data name="GuestSignUpLabelTitle" xml:space="preserve">
-    <value>Iniciar como invitado</value>
+    <value>Play as guest</value>
   </data>
   <data name="InviteFriendsButtonCopy" xml:space="preserve">
-    <value>Copiar</value>
+    <value>Copy</value>
   </data>
   <data name="InviteFriendsButtonInviteCode" xml:space="preserve">
-    <value>Código de invitación</value>
+    <value>Invite code</value>
   </data>
   <data name="InviteFriendsButtonSend" xml:space="preserve">
-    <value>Enviar</value>
+    <value>Send</value>
   </data>
   <data name="InviteFriendsLabelCopyInviteCode" xml:space="preserve">
-    <value>Copia tu código de invitación</value>
+    <value>Copy your invite code</value>
   </data>
   <data name="InviteFriendsLabelSendEmail" xml:space="preserve">
-    <value>Enviar por correo electrónico</value>
+    <value>Send by email</value>
   </data>
   <data name="InviteFriendsLabelTitle" xml:space="preserve">
-    <value>Invita a tu amigo</value>
+    <value>Invite your friend</value>
   </data>
   <data name="KickPlayerButtonKick" xml:space="preserve">
-    <value>Expulsar</value>
+    <value>Kick</value>
   </data>
   <data name="KickPlayerLabelKickOut" xml:space="preserve">
-    <value>Expulsión</value>
+    <value>Kick Out</value>
   </data>
   <data name="KickPlayerLabelMessage" xml:space="preserve">
-    <value>¿Estas seguro que deseas expulsar a</value>
+    <value>Are you sure you want to kick</value>
   </data>
   <data name="KickPlayerTextFieldChat" xml:space="preserve">
-    <value>Escribe un mensaje</value>
+    <value>Type a message</value>
   </data>
   <data name="loadMain" xml:space="preserve">
-    <value>Ir a inicio</value>
+    <value>Load Main</value>
   </data>
   <data name="LoginButtonForgotMyPassword" xml:space="preserve">
-    <value>Olvidé mi contraseña</value>
+    <value>Forgot my password</value>
   </data>
   <data name="LoginButtonSignUp" xml:space="preserve">
-    <value>Soy nuevo, quiero registrarme</value>
+    <value>New here? Sign up</value>
   </data>
   <data name="LoginLabelEnterDetail" xml:space="preserve">
-    <value>Ingresa tus datos para iniciar</value>
+    <value>Enter your details to log in</value>
   </data>
   <data name="LoginLabelTitle" xml:space="preserve">
-    <value>Inicio de Sesión</value>
+    <value>Login</value>
   </data>
   <data name="RecoverPasswordButtonConfirm" xml:space="preserve">
-    <value>Confirmar</value>
+    <value>Confirm</value>
   </data>
   <data name="RecoverPasswordButtonGoToLogin" xml:space="preserve">
-    <value>Ir a inicio de sesión</value>
+    <value>Go to login</value>
   </data>
   <data name="RecoverPasswordButtonRecoverPassword" xml:space="preserve">
-    <value>Recuperar contraseña</value>
+    <value>Recover password</value>
   </data>
   <data name="RecoverPasswordLabelDescription" xml:space="preserve">
-    <value>Al presionar “Recuperar contraseña”, se enviará un código de verificación a la dirección de correo electrónico proporcionada.</value>
+    <value>By pressing "Recover password", a verification code will be sent to the provided email address.</value>
   </data>
   <data name="RecoverPasswordLabelNewPassword" xml:space="preserve">
-    <value>Ingresa tu nueva contraseña para continuar</value>
+    <value>Enter your new password to continue</value>
   </data>
   <data name="RecoverPasswordLabelPasswordUpdated" xml:space="preserve">
-    <value>Tu contraseña se ha actualizado correctamente, ya puedes iniciar sesión</value>
+    <value>Your password has been updated successfully. You can now log in.</value>
   </data>
   <data name="RecoverPasswordLabelTitle" xml:space="preserve">
-    <value>Recuperar contraseña</value>
+    <value>Recover password</value>
   </data>
   <data name="UserSignUpLabelDetails" xml:space="preserve">
-    <value>Ingresa tus datos para registrarte</value>
+    <value>Fill in your details to sign up</value>
   </data>
   <data name="UserSignUpLabelRegistrationComplete" xml:space="preserve">
-    <value>Tu registro ha sido completado exitosamente. Bienvenido</value>
+    <value>Your registration was successful. Welcome,</value>
   </data>
   <data name="UserSignUpLabelTitle" xml:space="preserve">
-    <value>Registro de Usuario</value>
+    <value>Sign Up</value>
   </data>
 </root>
