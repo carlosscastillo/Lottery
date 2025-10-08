@@ -17,9 +17,9 @@ namespace Lottery.UI.View
     /// <summary>
     /// Lógica de interacción para JoinLobby.xaml
     /// </summary>
-    public partial class JoinLobby : Window
+    public partial class JoinLobbyView : Window
     {
-        public JoinLobby()
+        public JoinLobbyView()
         {
             InitializeComponent();
         }

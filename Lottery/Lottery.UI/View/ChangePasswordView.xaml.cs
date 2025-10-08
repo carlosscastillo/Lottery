@@ -25,11 +25,6 @@ namespace Lottery.UI.View
             InitializeComponent();
         }
 
-        internal void Show()
-        {
-            throw new NotImplementedException();
-        }
-
         private void TogglePasswordVisibility_Click(object sender, RoutedEventArgs e)
         {
             if (sender is Button btn && btn.Parent is Grid grid)

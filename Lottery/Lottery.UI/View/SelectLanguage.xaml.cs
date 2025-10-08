@@ -28,7 +28,7 @@ namespace Lottery.UI.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            new Login().Show();
+            new LoginView().Show();
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

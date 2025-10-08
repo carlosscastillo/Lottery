@@ -15,21 +15,29 @@ using System.Windows.Shapes;
 namespace Lottery.UI.View
 {
     /// <summary>
-    /// Lógica de interacción para GuestRegister.xaml
+    /// Lógica de interacción para Login.xaml
     /// </summary>
-    public partial class GuestRegister : Window
+    public partial class LoginView : Window
     {
-        public GuestRegister()
+        public LoginView()
         {
             InitializeComponent();
         }
 
-        private void StartGuestButton_Click(object sender, RoutedEventArgs e)
+        private void StartButton_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"Bienvenido invitado: {GuestNicknameTextBox.Text}");
+            string email = EmailTextBox.Text;
+            string password = PasswordBox.Password;
 
-            Login loginWindow = new Login();
-            loginWindow.Show();
+            
+        }
+
+        private void SignUpButton_Click(object sender, RoutedEventArgs e)
+        {
+            UserRegisterView registrationWindow = new UserRegisterView();
+
+            registrationWindow.Show();
+
             this.Close();
         }
     }

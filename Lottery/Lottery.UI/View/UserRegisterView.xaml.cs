@@ -17,9 +17,9 @@ namespace Lottery.UI.View
     /// <summary>
     /// Lógica de interacción para UserRegister.xaml
     /// </summary>
-    public partial class UserRegister : Window
+    public partial class UserRegisterView : Window
     {
-        public UserRegister()
+        public UserRegisterView()
         {
             InitializeComponent();
         }
@@ -49,7 +49,7 @@ namespace Lottery.UI.View
 
         private void ContinueButton_Click(object sender, RoutedEventArgs e)
         {
-            Login loginWindow = new Login();
+            LoginView loginWindow = new LoginView();
             loginWindow.Show();
             this.Close();
         }

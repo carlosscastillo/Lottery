@@ -83,26 +83,26 @@
     <Compile Include="View\ChangePasswordView.xaml.cs">
       <DependentUpon>ChangePasswordView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\CreateLobby.xaml.cs">
-      <DependentUpon>CreateLobby.xaml</DependentUpon>
+    <Compile Include="View\CreateLobbyView.xaml.cs">
+      <DependentUpon>CreateLobbyView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\CustomizeProfile.xaml.cs">
-      <DependentUpon>CustomizeProfile.xaml</DependentUpon>
+    <Compile Include="View\CustomizeProfileView.xaml.cs">
+      <DependentUpon>CustomizeProfileView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\FriendsListView.xaml.cs">
       <DependentUpon>FriendsListView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\GuestRegister.xaml.cs">
-      <DependentUpon>GuestRegister.xaml</DependentUpon>
+    <Compile Include="View\GuestRegisterView.xaml.cs">
+      <DependentUpon>GuestRegisterView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\InviteFriends.xaml.cs">
-      <DependentUpon>InviteFriends.xaml</DependentUpon>
+    <Compile Include="View\InviteFriendsView.xaml.cs">
+      <DependentUpon>InviteFriendsView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\JoinLobby.xaml.cs">
-      <DependentUpon>JoinLobby.xaml</DependentUpon>
+    <Compile Include="View\JoinLobbyView.xaml.cs">
+      <DependentUpon>JoinLobbyView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Login.xaml.cs">
-      <DependentUpon>Login.xaml</DependentUpon>
+    <Compile Include="View\LoginView.xaml.cs">
+      <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\RecoverPasswordView.xaml.cs">
       <DependentUpon>RecoverPasswordView.xaml</DependentUpon>
@@ -113,8 +113,8 @@
     <Compile Include="View\SelectLanguage.xaml.cs">
       <DependentUpon>SelectLanguage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\UserRegister.xaml.cs">
-      <DependentUpon>UserRegister.xaml</DependentUpon>
+    <Compile Include="View\UserRegisterView.xaml.cs">
+      <DependentUpon>UserRegisterView.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -132,11 +132,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\CreateLobby.xaml">
+    <Page Include="View\CreateLobbyView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\CustomizeProfile.xaml">
+    <Page Include="View\CustomizeProfileView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -144,19 +144,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\GuestRegister.xaml">
+    <Page Include="View\GuestRegisterView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\InviteFriends.xaml">
+    <Page Include="View\InviteFriendsView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\JoinLobby.xaml">
+    <Page Include="View\JoinLobbyView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Login.xaml">
+    <Page Include="View\LoginView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -172,7 +172,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\UserRegister.xaml">
+    <Page Include="View\UserRegisterView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

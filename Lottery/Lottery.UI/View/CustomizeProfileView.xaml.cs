@@ -17,9 +17,9 @@ namespace Lottery.UI.View
     /// <summary>
     /// Lógica de interacción para CustomizeProfile.xaml
     /// </summary>
-    public partial class CustomizeProfile : Window
+    public partial class CustomizeProfileView : Window
     {
-        public CustomizeProfile()
+        public CustomizeProfileView()
         {
             InitializeComponent();
         }

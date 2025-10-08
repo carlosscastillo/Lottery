@@ -17,9 +17,9 @@ namespace Lottery.UI.View
     /// <summary>
     /// Lógica de interacción para CreateLobby.xaml
     /// </summary>
-    public partial class CreateLobby : Window
+    public partial class CreateLobbyView : Window
     {
-        public CreateLobby()
+        public CreateLobbyView()
         {
             InitializeComponent();
 

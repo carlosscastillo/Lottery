@@ -17,9 +17,9 @@ namespace Lottery.UI.View
     /// <summary>
     /// Lógica de interacción para InivteFriends.xaml
     /// </summary>
-    public partial class InviteFriends : Window
+    public partial class InviteFriendsView : Window
     {
-        public InviteFriends()
+        public InviteFriendsView()
         {
             InitializeComponent();
         }
