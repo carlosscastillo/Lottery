@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lottery.UI.View"
         mc:Ignorable="d"
-        Title="Invita a tu amigo" Height="400" Width="500"
+        xmlns:language="clr-namespace:Loterry.UI.Properties.Langs"
+        Title="Invite your friend" Height="400" Width="350"
         Background="#F5F5F5"
         WindowStartupLocation="CenterScreen">
 
@@ -15,35 +16,20 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Border Grid.Row="1" 
-                BorderBrush="#DDDDDD" 
-                BorderThickness="1" 
-                Background="White" 
-                CornerRadius="12" 
-                Padding="40" 
-                MaxWidth="420" 
-                MaxHeight="550"
-                VerticalAlignment="Top" 
-                HorizontalAlignment="Center">
+        <Border BorderBrush="#DDDDDD" BorderThickness="1" Background="White" CornerRadius="12" Padding="40" MaxWidth="420" VerticalAlignment="Center" HorizontalAlignment="Center">
             <Border.Effect>
                 <DropShadowEffect ShadowDepth="1" Color="Black" Opacity="0.1" BlurRadius="10"/>
             </Border.Effect>
 
             <StackPanel>
-                <TextBlock Grid.Row="0" 
-                    Text="Invita a tu amigo" 
-                    Style="{StaticResource TitleTextStyle}" 
-                    Margin="0,40,0,30"/>
-                
-                <TextBlock Text="Copia tu código de invitación" 
-                           Style="{StaticResource SubtitleTextStyle}"
-                           Margin="0,-10,0,20"/>
+                <TextBlock Text="{x:Static language:Lang.InviteFriendsLabelTitle}" Style="{StaticResource TitleTextStyle}" Margin="0,40,0,30"/>
 
-                <Label Content="Código de invitación" 
-                       Style="{StaticResource LabelStyle}"/>
+                <TextBlock Text="{x:Static language:Lang.InviteFriendsLabelCopyInviteCode}" Style="{StaticResource SubtitleTextStyle}" Margin="0,-10,0,20"/>
+
+                <Label Content="{x:Static language:Lang.InviteFriendsButtonInviteCode}" Style="{StaticResource LabelStyle}"/>
 
                 <TextBox x:Name="InvitationCodeTextBox" 
-                         Text="0000" 
+                         Text="0000      " 
                          IsReadOnly="True" 
                          TextAlignment="Center"
                          FontSize="16"
@@ -51,7 +37,7 @@
 
                 <Button x:Name="CopyButton" 
                         Click="CopyButton_Click" 
-                        Content="Copiar" 
+                        Content="{x:Static language:Lang.InviteFriendsButtonCopy}" 
                         Margin="0,30,0,0" 
                         Padding="12" 
                         FontSize="16" 

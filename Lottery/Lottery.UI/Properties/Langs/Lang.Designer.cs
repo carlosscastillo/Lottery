@@ -565,6 +565,42 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Unirme a la sala.
+        /// </summary>
+        public static string JoinLobbyButtonJoin {
+            get {
+                return ResourceManager.GetString("JoinLobbyButtonJoin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Ingresa el código de la sala.
+        /// </summary>
+        public static string JoinLobbyLabelDetails {
+            get {
+                return ResourceManager.GetString("JoinLobbyLabelDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Código de la sala.
+        /// </summary>
+        public static string JoinLobbyLabelLobbyCode {
+            get {
+                return ResourceManager.GetString("JoinLobbyLabelLobbyCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Unirse a una sala.
+        /// </summary>
+        public static string JoinLobbyLabelTittle {
+            get {
+                return ResourceManager.GetString("JoinLobbyLabelTittle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Expulsar.
         /// </summary>
         public static string KickPlayerButtonKick {

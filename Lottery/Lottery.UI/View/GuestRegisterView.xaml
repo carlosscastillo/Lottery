@@ -5,23 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lottery.UI.View"
         mc:Ignorable="d"
+        xmlns:language="clr-namespace:Loterry.UI.Properties.Langs"
         Title="GuestRegister" Height="400" Width="500">
     <Border BorderBrush="#DDDDDD" BorderThickness="1" Background="White" CornerRadius="12" Padding="40" MaxWidth="420" VerticalAlignment="Center" HorizontalAlignment="Center">
         <Border.Effect>
             <DropShadowEffect ShadowDepth="1" Color="Black" Opacity="0.1" BlurRadius="10"/>
         </Border.Effect>
         <StackPanel>
-            <TextBlock Text="Iniciar como invitado" FontSize="28" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,-40,0,0"/>
-            
-            <TextBlock Text="Ingresa tu apodo" FontSize="14" Foreground="Gray" Margin="0,5,0,20" HorizontalAlignment="Center"/>
+            <TextBlock Text="{x:Static language:Lang.GuestSignUpLabelTitle}" Style="{StaticResource TitleTextStyle}"/>
 
-            <Label Content="A_podo" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=GuestNicknameTextBox}"/>
+            <TextBlock Text="{x:Static language:Lang.GuestSignUpLabelNickname}" Style="{StaticResource SubtitleTextStyle}"/>
+
+            <Label Content="{x:Static language:Lang.GlobalLabelNickname}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=GuestNicknameTextBox}"/>
             <Grid>
                 <TextBox x:Name="GuestNicknameTextBox" Text="xxCarCasXx" />
                 <TextBlock Text="&#xE77B;" Style="{StaticResource IconStyle}"/>
             </Grid>
 
-            <Button x:Name="StartGuestButton" Click="StartGuestButton_Click" Content="Iniciar" Margin="0,30,0,0" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
+            <Button x:Name="StartGuestButton" Click="StartGuestButton_Click" Content="{x:Static language:Lang.GlobalButtonStart}" Margin="0,30,0,0" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
                 <Button.Resources>
                     <Style TargetType="Border"><Setter Property="CornerRadius" Value="8"/></Style>
                 </Button.Resources>

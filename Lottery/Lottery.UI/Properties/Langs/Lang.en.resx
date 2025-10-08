@@ -285,6 +285,18 @@
   <data name="InviteFriendsLabelTitle" xml:space="preserve">
     <value>Invite your friend</value>
   </data>
+  <data name="JoinLobbyButtonJoin" xml:space="preserve">
+    <value>Join lobby</value>
+  </data>
+  <data name="JoinLobbyLabelDetails" xml:space="preserve">
+    <value>Enter lobby code</value>
+  </data>
+  <data name="JoinLobbyLabelLobbyCode" xml:space="preserve">
+    <value>Lobby code</value>
+  </data>
+  <data name="JoinLobbyLabelTittle" xml:space="preserve">
+    <value>Join lobby</value>
+  </data>
   <data name="KickPlayerButtonKick" xml:space="preserve">
     <value>Kick</value>
   </data>
