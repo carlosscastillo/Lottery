@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lottery.UI.View"
         mc:Ignorable="d"
-        Title="CustomizeProfile" Height="750" Width="550"
+        xmlns:language="clr-namespace:Loterry.UI.Properties.Langs"
+        Title="Customize Profile" Height="750" Width="550"
         Background="#F5F5F5"
         WindowStartupLocation="CenterScreen">
 
@@ -37,49 +38,49 @@
             <Grid>
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
                     <StackPanel x:Name="ProfileDataPanel" Visibility="Visible">
-                        <TextBlock Text="Datos del perfil" Style="{StaticResource TitleTextStyle}"/>
-                        <TextBlock Text="Edita y actualiza la información de tu perfil." Style="{StaticResource SubtitleTextStyle}"/>
-                        <Label Content="Nombre (s)" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=NameTextBox}"/>
+                        <TextBlock Text="{x:Static language:Lang.CustomizeProfileLabelTitle}" Style="{StaticResource TitleTextStyle}"/>
+                        <TextBlock Text="{x:Static language:Lang.CustomizeProfileLabelEditDetails}" Style="{StaticResource SubtitleTextStyle}"/>
+                        <Label Content="{x:Static language:Lang.GlobalLabelName}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=NameTextBox}"/>
                         <Grid>
                             <TextBox x:Name="NameTextBox" Text="Carlos"/>
                             <TextBlock Text="&#xE77B;" Style="{StaticResource IconStyle}"/>
                         </Grid>
-                        <Label Content="Apellido Paterno" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=PaternalLastNameTextBox}"/>
+                        <Label Content="{x:Static language:Lang.GlobalLabelPaternalLastName}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=PaternalLastNameTextBox}"/>
                         <Grid>
                             <TextBox x:Name="PaternalLastNameTextBox" Text="Castillo"/>
                             <TextBlock Text="&#xE77B;" Style="{StaticResource IconStyle}"/>
                         </Grid>
-                        <Label Content="Apellido Materno" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=MaternalLastNameTextBox}"/>
+                        <Label Content="{x:Static language:Lang.GlobalLabelMaternalLastName}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=MaternalLastNameTextBox}"/>
                         <Grid>
                             <TextBox x:Name="MaternalLastNameTextBox" Text="Barradas"/>
                             <TextBlock Text="&#xE77B;" Style="{StaticResource IconStyle}"/>
                         </Grid>
-                        <Label Content="Apodo" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=NicknameTextBox}"/>
+                        <Label Content="{x:Static language:Lang.GlobalLabelNickname}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=NicknameTextBox}"/>
                         <Grid>
                             <TextBox x:Name="NicknameTextBox" Text="xXCarCasXx"/>
                             <TextBlock Text="&#xE77B;" Style="{StaticResource IconStyle}"/>
                         </Grid>
-                        <Label Content="Correo electrónico" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=EmailTextBox}"/>
+                        <Label Content="{x:Static language:Lang.GlobalLabelEmail}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=EmailTextBox}"/>
                         <Grid>
                             <TextBox x:Name="EmailTextBox" Text="carlos@gmail.com" IsReadOnly="True"/>
                             <TextBlock Text="&#xE715;" Style="{StaticResource IconStyle}"/>
                         </Grid>
-                        <Button x:Name="SaveChangesButton" Click="SaveChangesButton_Click" Content="Guardar cambios" Margin="0,20,0,10" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
+                        <Button x:Name="SaveChangesButton" Click="SaveChangesButton_Click" Content="{x:Static language:Lang.GlobalButtonSaveChanges}" Margin="0,20,0,10" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
                             <Button.Resources>
                                 <Style TargetType="Border">
                                     <Setter Property="CornerRadius" Value="8"/>
                                 </Style>
                             </Button.Resources>
                         </Button>
-                        <Button x:Name="ChangePasswordButton" Click="ChangePasswordButton_Click" Content="Cambiar contraseña" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Foreground="Gray" HorizontalAlignment="Center"/>
-                        <Button x:Name="ChangeEmailButton" Click="ChangeEmailButton_Click" Content="Cambiar correo electrónico" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Foreground="Gray" HorizontalAlignment="Center"/>
+                        <Button x:Name="ChangePasswordButton" Click="ChangePasswordButton_Click" Content="{x:Static language:Lang.CustomizeProfileButtonChangePassword}" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Foreground="Gray" HorizontalAlignment="Center"/>
+                        <Button x:Name="ChangeEmailButton" Click="ChangeEmailButton_Click" Content="{x:Static language:Lang.CustomizeProfileLabelChangeEmail}" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Foreground="Gray" HorizontalAlignment="Center"/>
                     </StackPanel>
                 </ScrollViewer>
 
                 <StackPanel x:Name="AvatarSelectionPanel" Visibility="Collapsed">
-                    <TextBlock Text="Personalizar perfil" Style="{StaticResource TitleTextStyle}" Margin="0,0,0,5"/>
-                    <TextBlock Text="Selecciona tu avatar" Style="{StaticResource SubtitleTextStyle}" Margin="0,0,0,25"/>
-                    <Label Content="Foto de perfil" Style="{StaticResource LabelStyle}"/>
+                    <TextBlock Text="{x:Static language:Lang.CustomizeProfileLabelTitle}" Style="{StaticResource TitleTextStyle}" Margin="0,0,0,5"/>
+                    <TextBlock Text="{x:Static language:Lang.CustomizeProfileLabelSelectAvatar}" Style="{StaticResource SubtitleTextStyle}" Margin="0,0,0,25"/>
+                    <Label Content="{x:Static language:Lang.CustomizeProfileLabelAvatar}" Style="{StaticResource LabelStyle}"/>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                         <Button Margin="5" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
                             <Image Source="https://i.pinimg.com/originals/73/b7/10/73b71051c82f0fe336893fbafe81277a.jpg" Width="50"/>
@@ -97,7 +98,7 @@
                             <Image Source="https://wallpapers.com/images/hd/xbox-360-profile-pictures-nvesht0v7k3j254s.jpg" Width="50"/>
                         </Button>
                     </StackPanel>
-                    <Label Content="Color de fondo" Style="{StaticResource LabelStyle}" Margin="0,20,0,5"/>
+                    <Label Content="{x:Static language:Lang.CustomizeProfileLabelBackground}" Style="{StaticResource LabelStyle}" Margin="0,20,0,5"/>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                         <Button Margin="5" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}">
                             <Border Width="40" Height="40" Background="Yellow" CornerRadius="4"/>
@@ -115,7 +116,7 @@
                             <Border Width="40" Height="40" Background="LimeGreen" CornerRadius="4"/>
                         </Button>
                     </StackPanel>
-                    <Button x:Name="SaveCustomizationButton" Click="SaveCustomizationButton_Click" Content="Guardar cambios" Margin="0,40,0,0" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
+                    <Button x:Name="SaveCustomizationButton" Click="SaveCustomizationButton_Click" Content="{x:Static language:Lang.GlobalButtonSaveChanges}" Margin="0,40,0,0" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
                         <Button.Resources>
                             <Style TargetType="Border">
                                 <Setter Property="CornerRadius" Value="8"/>
@@ -125,25 +126,24 @@
                 </StackPanel>
 
                 <StackPanel x:Name="ChangeEmailPanel" Visibility="Collapsed">
-                    <TextBlock Text="Cambiar correo electrónico" Style="{StaticResource TitleTextStyle}" Cursor="Hand"/>
-                    <TextBlock Text="Ingresa tus datos para continuar" Style="{StaticResource SubtitleTextStyle}"/>
+                    <TextBlock Text="{x:Static language:Lang.CustomizeProfileLabelChangeEmail}" Style="{StaticResource TitleTextStyle}" Cursor="Hand"/>
+                    <TextBlock Text="{x:Static language:Lang.GlobalLabelDetailsToContinue}" Style="{StaticResource SubtitleTextStyle}"/>
 
-                    <Label Content="Contraseña" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=CurrentPasswordBox}"/>
+                    <Label Content="{x:Static language:Lang.GlobalLabelPassword}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=CurrentPasswordBox}"/>
                     <Grid>
                         <PasswordBox x:Name="CurrentPasswordBox" Password="Password"/>
                         <TextBlock Text="&#xE72E;" Style="{StaticResource IconStyle}"/>
                     </Grid>
 
-                    <Label Content="Nueva dirección de correo electrónico" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=NewEmailTextBox}"/>
+                    <Label Content="{x:Static language:Lang.CustomizeProfileLabelNewEmailAddress}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=NewEmailTextBox}"/>
                     <Grid>
                         <TextBox x:Name="NewEmailTextBox" Text="carlos@gmail.com"/>
                         <TextBlock Text="&#xE715;" Style="{StaticResource IconStyle}"/>
                     </Grid>
 
-                    <TextBlock Text="Al presionar 'Continuar', se enviará un código de verificación a la dirección de correo electrónico proporcionada." 
-                               FontSize="12" Foreground="Gray" TextWrapping="Wrap" Margin="0,20,0,0"/>
+                    <TextBlock Text="{x:Static language:Lang.CustomizeProfileLabelDescription}" FontSize="12" Foreground="Gray" TextWrapping="Wrap" Margin="0,20,0,0"/>
 
-                    <Button x:Name="ContinueEmailChangeButton" Click="ContinueEmailChangeButton_Click" Content="Continuar" Margin="0,20,0,0" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
+                    <Button x:Name="ContinueEmailChangeButton" Click="ContinueEmailChangeButton_Click" Content="{x:Static language:Lang.GlobalButtonContinue}" Margin="0,20,0,0" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
                         <Button.Resources>
                             <Style TargetType="Border">
                                 <Setter Property="CornerRadius" Value="8"/>
@@ -151,18 +151,18 @@
                         </Button.Resources>
                     </Button>
 
-                    <Button x:Name="BackEmailChangeButton" Click="BackEmailChangeButton_Click" Content="Regresar" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Foreground="Gray" Margin="0,15,0,0" HorizontalAlignment="Center"/>
+                    <Button x:Name="BackEmailChangeButton" Click="BackEmailChangeButton_Click" Content="{x:Static language:Lang.GlobalButtonBack}" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Foreground="Gray" Margin="0,15,0,0" HorizontalAlignment="Center"/>
                 </StackPanel>
 
                 <StackPanel x:Name="VerifyEmailChangePanel" Visibility="Collapsed">
-                    <TextBlock Text="Cambiar correo electrónico" Style="{StaticResource TitleTextStyle}"/>
+                    <TextBlock Text="{x:Static language:Lang.CustomizeProfileLabelChangeEmail}" Style="{StaticResource TitleTextStyle}"/>
 
-                    <TextBlock Text="Hemos enviado un código a" Style="{StaticResource SubtitleTextStyle}" Margin="0,20,0,2"/>
+                    <TextBlock Text="{x:Static language:Lang.GlobalLabelVerificationCode}" Style="{StaticResource SubtitleTextStyle}" Margin="0,20,0,2"/>
                     <TextBlock x:Name="VerificationCodeEmailTextBlock" Text="carlos@gmail.com" FontSize="14" Foreground="Gray" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
 
                     <Label Style="{StaticResource LabelStyle}" Target="{Binding ElementName=VerificationCodeTextBox}">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Código de Verificación" FontWeight="SemiBold"/>
+                            <TextBlock Text="{x:Static language:Lang.GlobalButtonVerificationCode}" FontWeight="SemiBold"/>
                             <TextBlock Text="&#xE72E;" FontFamily="Segoe MDL2 Assets" FontSize="12" Margin="5,0,0,0" VerticalAlignment="Center"/>
                         </StackPanel>
                     </Label>
@@ -170,7 +170,7 @@
                         <TextBox x:Name="VerificationCodeTextBox" Style="{StaticResource CodeInputFieldStyle}" Text="000000"/>
                     </Grid>
 
-                    <Button x:Name="VerifyCodeButton" Click="VerifyCodeButton_Click" Content="Verificar Código" Margin="0,20,0,0" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
+                    <Button x:Name="VerifyCodeButton" Click="VerifyCodeButton_Click" Content="{x:Static language:Lang.GlobalButtonVerifyCode}" Margin="0,20,0,0" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
                         <Button.Resources>
                             <Style TargetType="Border">
                                 <Setter Property="CornerRadius" Value="8"/>
@@ -180,15 +180,15 @@
 
                     <Button x:Name="GoBackButton" Click="GoBackButton_Click" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Foreground="Gray" Margin="0,15,0,0" HorizontalAlignment="Center">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Regresar"/>
+                            <TextBlock Text="{x:Static language:Lang.GlobalButtonBack}"/>
                         </StackPanel>
                     </Button>
                 </StackPanel>
 
                 <StackPanel x:Name="EmailChangeSuccessPanel" Visibility="Collapsed">
-                    <TextBlock Text="Cambiar correo electrónico" Style="{StaticResource TitleTextStyle}"/>
+                    <TextBlock Text="{x:Static language:Lang.CustomizeProfileLabelChangeEmail}" Style="{StaticResource TitleTextStyle}"/>
 
-                    <TextBlock Text="Tu correo electrónico se ha modificado correctamente" 
+                    <TextBlock Text="{x:Static language:Lang.CustomizeProfileLabelEmailUpdated}" 
                                Style="{StaticResource SubtitleTextStyle}" Margin="0,20,0,0" TextWrapping="Wrap" TextAlignment="Center"/>
 
                     <Grid Height="60" Width="60" Margin="0,25,0,25">
@@ -197,7 +197,7 @@
                                    FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Grid>
 
-                    <Button x:Name="AcceptButton" Click="AcceptButton_Click" Content="Aceptar" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
+                    <Button x:Name="AcceptButton" Click="AcceptButton_Click" Content="{x:Static language:Lang.GlobalButtonAccept}" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
                         <Button.Resources>
                             <Style TargetType="Border">
                                 <Setter Property="CornerRadius" Value="8"/>
