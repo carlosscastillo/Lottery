@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lottery.UI.View"
         mc:Ignorable="d"
-        Title="Crear sala" Height="650" Width="500"
+        xmlns:language="clr-namespace:Loterry.UI.Properties.Langs"
+        Title="Crear sala" Height="600" Width="400"
         Background="#F5F5F5"
         WindowStartupLocation="CenterScreen">
     <Grid>
@@ -22,44 +23,50 @@
             </Border.Effect>
 
             <StackPanel>
-                <TextBlock Text="Crear sala" 
+                <TextBlock Text="{x:Static language:Lang.CreateLobbyLabelTitle}" 
                            Style="{StaticResource TitleTextStyle}" 
-                           Margin="0,0,0,30"/>
+                           Margin="0,0,0,10"/>
 
-                <Label Content="_Modo de juego" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=GameModeComboBox}"/>
+                <Label Content="{x:Static language:Lang.CreateLobbyLabelGameMode}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=GameModeComboBox}"/>
                 <ComboBox x:Name="GameModeComboBox">
-                    <ComboBoxItem Content="Esquinas"/>
-                    <ComboBoxItem Content="Centro"/>
-                    <ComboBoxItem Content="Lleno"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelGameModeStandard}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelGameModeCenter}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelGameModeDiagonals}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelGameModeCorners}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelGameModeFrame}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelGameModeMegaLottery}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelGameModeUnfairLottery}"/>
                 </ComboBox>
 
-                <Label Content="_Sonido" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=SoundComboBox}"/>
+                <Label Content="{x:Static language:Lang.CreateLobbyLabelSound}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=SoundComboBox}"/>
                 <ComboBox x:Name="SoundComboBox">
-                    <ComboBoxItem Content="Si"/>
-                    <ComboBoxItem Content="No"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.GlobalTagYes}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.GlobalTagNo}"/>
                 </ComboBox>
 
-                <Label Content="_Imagen de cartas" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=CardImageComboBox}"/>
+                <Label Content="{x:Static language:Lang.CreateLobbyLabelCardImage}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=CardImageComboBox}"/>
                 <ComboBox x:Name="CardImageComboBox">
-                    <ComboBoxItem Content="Si"/>
-                    <ComboBoxItem Content="No"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.GlobalTagYes}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.GlobalTagNo}"/>
                 </ComboBox>
 
-                <Label Content="_Tiempo de aparición de las cartas" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=CardTimeComboBox}"/>
+                <Label Content="{x:Static language:Lang.CreateLobbyLabelCardDisplayTime}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=CardTimeComboBox}"/>
                 <ComboBox x:Name="CardTimeComboBox">
-                    <ComboBoxItem Content="1"/>
-                    <ComboBoxItem Content="3"/>
-                    <ComboBoxItem Content="5"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelCardDisplayOneSecond}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelCardDisplayTwoSeconds}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelCardDisplayThreeSeconds}"/>
                 </ComboBox>
 
-                <Label Content="_Fichas" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=ChipTypeComboBox}"/>
+                <Label Content="{x:Static language:Lang.CreateLobbyLabelMarkers}" Style="{StaticResource LabelStyle}" Target="{Binding ElementName=ChipTypeComboBox}"/>
                 <ComboBox x:Name="ChipTypeComboBox">
-                    <ComboBoxItem Content="Frijoles"/>
-                    <ComboBoxItem Content="Piedras"/>
-                    <ComboBoxItem Content="Maíz"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelMarkersBeans}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelMarkersBottleCaps}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelMarkersPaperBalls}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelMarkersCoins}"/>
+                    <ComboBoxItem Content="{x:Static language:Lang.CreateLobbyLabelMarkersCorn}"/>
                 </ComboBox>
 
-                <Button x:Name="CreateLobbyButton" Click="CreateLobbyButton_Click" Content="Crear sala" Margin="0,40,0,0" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
+                <Button x:Name="CreateLobbyButton" Click="CreateLobbyButton_Click" Content="{x:Static language:Lang.CreateLobbyLabelTitle}" Margin="0,40,0,0" Padding="12" FontSize="16" FontWeight="Bold" Foreground="White" Background="Black" BorderThickness="0" Cursor="Hand">
                     <Button.Resources>
                         <Style TargetType="Border">
                             <Setter Property="CornerRadius" Value="8"/>

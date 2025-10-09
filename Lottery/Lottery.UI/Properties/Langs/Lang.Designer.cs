@@ -97,11 +97,38 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a 1 Segundo.
+        /// </summary>
+        public static string CreateLobbyLabelCardDisplayOneSecond {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelCardDisplayOneSecond", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a 3 Segundos.
+        /// </summary>
+        public static string CreateLobbyLabelCardDisplayThreeSeconds {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelCardDisplayThreeSeconds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Tiempo de aparición de las cartas.
         /// </summary>
         public static string CreateLobbyLabelCardDisplayTime {
             get {
                 return ResourceManager.GetString("CreateLobbyLabelCardDisplayTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a 2 Segundos.
+        /// </summary>
+        public static string CreateLobbyLabelCardDisplayTwoSeconds {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelCardDisplayTwoSeconds", resourceCulture);
             }
         }
         
@@ -124,11 +151,119 @@ namespace Loterry.UI.Properties.Langs {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Centro.
+        /// </summary>
+        public static string CreateLobbyLabelGameModeCenter {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelGameModeCenter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Esquinas.
+        /// </summary>
+        public static string CreateLobbyLabelGameModeCorners {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelGameModeCorners", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Diagonales.
+        /// </summary>
+        public static string CreateLobbyLabelGameModeDiagonals {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelGameModeDiagonals", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Marco.
+        /// </summary>
+        public static string CreateLobbyLabelGameModeFrame {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelGameModeFrame", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Mega Lotería.
+        /// </summary>
+        public static string CreateLobbyLabelGameModeMegaLottery {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelGameModeMegaLottery", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Normal.
+        /// </summary>
+        public static string CreateLobbyLabelGameModeStandard {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelGameModeStandard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Lotería Injusta.
+        /// </summary>
+        public static string CreateLobbyLabelGameModeUnfairLottery {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelGameModeUnfairLottery", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Fichas.
         /// </summary>
         public static string CreateLobbyLabelMarkers {
             get {
                 return ResourceManager.GetString("CreateLobbyLabelMarkers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Frijoles.
+        /// </summary>
+        public static string CreateLobbyLabelMarkersBeans {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelMarkersBeans", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Corcholatas.
+        /// </summary>
+        public static string CreateLobbyLabelMarkersBottleCaps {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelMarkersBottleCaps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Monedas.
+        /// </summary>
+        public static string CreateLobbyLabelMarkersCoins {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelMarkersCoins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Maíz.
+        /// </summary>
+        public static string CreateLobbyLabelMarkersCorn {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelMarkersCorn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Bolitas de Papel.
+        /// </summary>
+        public static string CreateLobbyLabelMarkersPaperBalls {
+            get {
+                return ResourceManager.GetString("CreateLobbyLabelMarkersPaperBalls", resourceCulture);
             }
         }
         

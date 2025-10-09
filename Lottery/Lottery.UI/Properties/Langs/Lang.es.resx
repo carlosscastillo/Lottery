@@ -129,8 +129,17 @@
   <data name="ChangePasswordLabelTitle" xml:space="preserve">
     <value>Cambiar Contraseña</value>
   </data>
+  <data name="CreateLobbyLabelCardDisplayOneSecond" xml:space="preserve">
+    <value>1 Segundo</value>
+  </data>
+  <data name="CreateLobbyLabelCardDisplayThreeSeconds" xml:space="preserve">
+    <value>3 Segundos</value>
+  </data>
   <data name="CreateLobbyLabelCardDisplayTime" xml:space="preserve">
     <value>Tiempo de aparición de las cartas</value>
+  </data>
+  <data name="CreateLobbyLabelCardDisplayTwoSeconds" xml:space="preserve">
+    <value>2 Segundos</value>
   </data>
   <data name="CreateLobbyLabelCardImage" xml:space="preserve">
     <value>Imagen de cartas</value>
@@ -138,8 +147,44 @@
   <data name="CreateLobbyLabelGameMode" xml:space="preserve">
     <value>Modo de juego</value>
   </data>
+  <data name="CreateLobbyLabelGameModeCenter" xml:space="preserve">
+    <value>Centro</value>
+  </data>
+  <data name="CreateLobbyLabelGameModeCorners" xml:space="preserve">
+    <value>Esquinas</value>
+  </data>
+  <data name="CreateLobbyLabelGameModeDiagonals" xml:space="preserve">
+    <value>Diagonales</value>
+  </data>
+  <data name="CreateLobbyLabelGameModeFrame" xml:space="preserve">
+    <value>Marco</value>
+  </data>
+  <data name="CreateLobbyLabelGameModeMegaLottery" xml:space="preserve">
+    <value>Mega Lotería</value>
+  </data>
+  <data name="CreateLobbyLabelGameModeStandard" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="CreateLobbyLabelGameModeUnfairLottery" xml:space="preserve">
+    <value>Lotería Injusta</value>
+  </data>
   <data name="CreateLobbyLabelMarkers" xml:space="preserve">
     <value>Fichas</value>
+  </data>
+  <data name="CreateLobbyLabelMarkersBeans" xml:space="preserve">
+    <value>Frijoles</value>
+  </data>
+  <data name="CreateLobbyLabelMarkersBottleCaps" xml:space="preserve">
+    <value>Corcholatas</value>
+  </data>
+  <data name="CreateLobbyLabelMarkersCoins" xml:space="preserve">
+    <value>Monedas</value>
+  </data>
+  <data name="CreateLobbyLabelMarkersCorn" xml:space="preserve">
+    <value>Maíz</value>
+  </data>
+  <data name="CreateLobbyLabelMarkersPaperBalls" xml:space="preserve">
+    <value>Bolitas de Papel</value>
   </data>
   <data name="CreateLobbyLabelSound" xml:space="preserve">
     <value>Sonido</value>
