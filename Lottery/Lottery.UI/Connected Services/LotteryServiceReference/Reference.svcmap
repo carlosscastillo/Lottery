@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="a23a2d40-f829-44d9-890e-a59ddebed0c7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="83ef5135-db65-44af-aff8-0a6065a459ff" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,9 +22,10 @@
     <MetadataSource Address="http://localhost:8733/Lottery/" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="600dbd4c-3b49-43e5-8e14-ef350711c807" SourceId="1" SourceUrl="http://localhost:8733/Lottery/?xsd=xsd0" />
-    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="990a4347-e514-4386-a169-606f28a8c4cc" SourceId="1" SourceUrl="http://localhost:8733/Lottery/?disco" />
-    <MetadataFile FileName="GameService.wsdl" MetadataType="Wsdl" ID="47669618-fafa-4d71-8638-d43e8cc5f9e7" SourceId="1" SourceUrl="http://localhost:8733/Lottery/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="7ff321d0-42da-41ac-a67b-e7f395363902" SourceId="1" SourceUrl="http://localhost:8733/Lottery/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="ab6fac01-cd94-489b-95c4-3c4c41691c94" SourceId="1" SourceUrl="http://localhost:8733/Lottery/?xsd=xsd1" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="614bc09f-a3f1-4d84-a7f9-66ec35a633a3" SourceId="1" SourceUrl="http://localhost:8733/Lottery/?disco" />
+    <MetadataFile FileName="LotteryService.wsdl" MetadataType="Wsdl" ID="f5894c7b-0d4c-453e-b5d4-3d17b74631d2" SourceId="1" SourceUrl="http://localhost:8733/Lottery/?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
